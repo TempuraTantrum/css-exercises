@@ -53,3 +53,9 @@ a {
   font-size: 24px;
   color: white;
   }
+
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
