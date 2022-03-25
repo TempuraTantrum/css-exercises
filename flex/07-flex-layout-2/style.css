@@ -23,6 +23,14 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  /* my answer */
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
