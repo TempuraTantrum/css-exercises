@@ -54,12 +54,25 @@ input {
      }
 
     li {
-  list-style: none;
+    list-style: none;
     }
 
-    .left-links, .right-links {
+   .left-links, .right-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 16px;
+   }
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding :8px;
   display: flex;
-  justify-content: space-around;
-  align-content: center;
- gap: 16px;
-  }
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+}
