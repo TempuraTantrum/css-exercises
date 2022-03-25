@@ -56,3 +56,12 @@ ul {
   padding: 0;
   gap:16px;
 }
+
+/*
+There is 16px between each item on both sides of the header.
+*/
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
