@@ -38,3 +38,11 @@ input {
   align-items: center;
   justify-content: space-between;
   }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top:5px;
+    }
